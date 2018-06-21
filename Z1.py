@@ -21,18 +21,6 @@ def hash_list(value):
 # print(hash_list(['a', 'b', 'c', 1, 3]))
 
 
-# def hash_tuple(value):
-#     for i, x in enumerate(value):
-#         if type(x) is str:
-#             value[i] = tuple(hashlib.md5(x.encode('utf-8')))
-#         else:
-#             value[i] = hashlib.md5(str(x).encode('utf-8'))
-#     return value
-#
-#
-# print(hash_tuple(('a', 'b', 'c', 1, 3)))
-
-
 def hash_set(value):
     result = ()
     for x in value:
